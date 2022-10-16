@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Arial";
+  background-color: #36393f;
+  color: white;
+}
+
+.margin {
+  margin: 15px;
+}
+
+.row {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.column {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.text-decoration {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.main .header {
+  margin-bottom: 40px;
+}
+
+.aloe1-icon {
+  background-image: url("../images/aloe1.png");
+}
+
+.aloe2-icon {
+  background-image: url("../images/aloe2.png");
+}
+
+.aloe3-icon {
+  background-image: url("../images/aloe3.png");
+}
+
+.persona-icon {
+  background-image: url("../images/persona.png");
+}
+
+.img-container, .img-testimonio {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.img-testimonio {
+  border-radius: 50px;
+}
+
+.formulario:hover {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

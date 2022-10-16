@@ -1,0 +1,9 @@
+@mixin titulos {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+@mixin center{
+    justify-content: center;
+    align-items: center;
+}
