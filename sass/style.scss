@@ -1,0 +1,46 @@
+@import 'base';
+@import 'mixins';
+@import 'variables';
+
+.main {
+    .header {
+        margin-bottom: 40px;
+    }
+}
+
+@each $image1 in aloe1,
+aloe2,
+aloe3 {
+    .#{$image1}-icon {
+        background-image: url('../images/#{$image1}.png');
+    }
+}
+
+@each $image2 in persona {
+    .#{$image2}-icon {
+        background-image: url('../images/#{$image2}.png');
+    }
+}
+
+.img-container {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.img-testimonio {
+    @extend .img-container;
+    border-radius: 50px;
+}
+
+.formulario{
+    
+    &:hover{
+        font-weight: bold;
+    }
+}
