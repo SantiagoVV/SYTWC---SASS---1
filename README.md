@@ -8,7 +8,7 @@ Ejercicios:
 
 1
 
-'''
+```ruby
 $color1: #fff
 $color2: #095169
 $color3: #30162B
@@ -44,10 +44,11 @@ header
   background-color: $color1
   color: #222
 
-'''
+```
 ---------------------------------------------------------------------------------------
 2
 
+```ruby
 .header {
   background-color: #531946;
   border-radius: 5px;
@@ -95,10 +96,11 @@ header
   padding: 5px 20px;
 }
 
-
+```
 ---------------------------------------------------------------------------------------
 3
 
+```ruby
 .navigation {
   float: right;
 
@@ -114,11 +116,11 @@ header
   }
 }
 
-
+```
 ---------------------------------------------------------------------------------------
 4
 
-
+```ruby
 a {
   color: #beedee;
 
@@ -134,23 +136,23 @@ a {
     display: block;
   }
 }
-
+```
 ---------------------------------------------------------------------------------------
 5
 
-
+```ruby
 header, .footer, .feature a, .content {
   border-radius: 5px;
   padding: 5px 20px;
 }
 
-
+```
 
 
 ---------------------------------------------------------------------------------------
 6
 
-
+```ruby
 .header
   -webkit-border-radius: 5px
   -moz-border-radius: 5px
@@ -160,3 +162,4 @@ header, .footer, .feature a, .content {
   -webkit-border-radius: 10px
   -moz-border-radius: 10px
   border-radius: 10px
+```
