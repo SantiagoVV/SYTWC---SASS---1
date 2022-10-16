@@ -153,13 +153,16 @@ header, .footer, .feature a, .content {
 6
 
 ```ruby
+$px1: 5px
+$px2: 10px
+
 .header
-  -webkit-border-radius: 5px
-  -moz-border-radius: 5px
-  border-radius: 5px
+  -webkit-border-radius: $px1
+  -moz-border-radius: $px1
+  border-radius: $px1
 
 .footer
-  -webkit-border-radius: 10px
-  -moz-border-radius: 10px
-  border-radius: 10px
+  -webkit-border-radius: $px2
+  -moz-border-radius: $px2
+  border-radius: $px2
 ```
